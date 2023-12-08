@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup-styles.css">
+    <title>Sign Up - Cloud 9 Gaming</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Cloud 9 Gaming Logo" width="100" height="100">
+        <h1>Sign Up for Cloud 9 Gaming</h1>
+        <p>Fill in your details to join the cloud gaming revolution!</p>
+    </header>
+
+    <section>
+        <form action="process_signup.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cloud 9 Gaming. All rights reserved.</p>
+    </footer>
+</body>
+</html>
